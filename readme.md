@@ -2,11 +2,11 @@
 
 Debug [Vinyl](https://github.com/gulpjs/vinyl) file streams in Gulp
 
-This project is a fork of `gulp-debug` `v4.0.0` refactored in ESM and updated with latest dependencies
+This project is a fork of gulp-debug `v4.0.0` refactored in ESM and updated with latest dependencies
 
 ## Install
 
-```
+```bash
 $ npm i -D @sequencemedia/gulp-debug
 ```
 
@@ -17,9 +17,9 @@ import gulp from '@sequencemedia/gulp'
 import debug from 'gulp-debug'
 
 export default () => (
-	gulp.src('foo.js')
-		.pipe(debug({title: 'unicorn:'}))
-		.pipe(gulp.dest('dist'))
+  gulp.src('foo.js')
+    .pipe(debug({title: 'unicorn:'}))
+    .pipe(gulp.dest('dist'))
 );
 ```
 

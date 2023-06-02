@@ -68,7 +68,8 @@ describe('`gulp-debug`', () => {
     const stream = debug({
       logger: INSPECTOR.logger,
       title: 'unicorn:'
-    })``
+    })
+
     stream
       .on('end', () => {
         assert(INSPECTOR.lastMessage, 'unicorn: 0 items')
