@@ -4,7 +4,7 @@ import assert from 'node:assert'
 import Vinyl from 'vinyl'
 import stripAnsi from 'strip-ansi'
 
-import debug from '../index.mjs'
+import debug from '#gulp-debug'
 
 describe('`gulp-debug`', () => {
   let FILE
