@@ -49,6 +49,6 @@ export default (options) => {
       options.logger(options.title + ' ' + chalk.green(count + ' ' + plur('item', count)))
     }
 
-    done(null)
+    done()
   })
 }

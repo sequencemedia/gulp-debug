@@ -14,7 +14,7 @@ $ npm i -D @sequencemedia/gulp-debug
 
 ```javascript
 import gulp from '@sequencemedia/gulp'
-import debug from 'gulp-debug'
+import debug from '@sequencemedia/gulp-debug'
 
 export default () => (
   gulp.src('foo.js')
