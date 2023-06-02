@@ -1,22 +1,22 @@
-# gulp-debug
+# @sequencemedia/gulp-debug
 
-> Debug [Vinyl](https://github.com/gulpjs/vinyl) file streams to see what files are run through your Gulp pipeline
+Debug [Vinyl](https://github.com/gulpjs/vinyl) file streams in Gulp
 
-<img src="screenshot.png" width="415">
+This project is a fork of `gulp-debug` `v4.0.0` refactored in ESM and updated with latest dependencies
 
 ## Install
 
 ```
-$ npm install --save-dev gulp-debug
+$ npm i -D @sequencemedia/gulp-debug
 ```
 
 ## Usage
 
-```js
-const gulp = require('gulp');
-const debug = require('gulp-debug');
+```javascript
+import gulp from '@sequencemedia/gulp'
+import debug from 'gulp-debug'
 
-exports.default = () => (
+export default () => (
 	gulp.src('foo.js')
 		.pipe(debug({title: 'unicorn:'}))
 		.pipe(gulp.dest('dist'))
