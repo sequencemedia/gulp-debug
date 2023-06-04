@@ -42,7 +42,6 @@
     "fancy-log": "^2.0.0",
     "plur": "^5.1.0",
     "stringify-object": "^5.0.0",
-    "through2": "^4.0.2",
     "tildify": "^3.0.0"
   },
   "devDependencies": {
