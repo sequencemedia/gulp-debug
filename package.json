@@ -1,6 +1,6 @@
 {
   "name": "@sequencemedia/gulp-debug",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Debug Vinyl file streams in Gulp",
   "keywords": [
     "gulp",
